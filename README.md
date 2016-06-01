@@ -38,7 +38,14 @@ be replaced with `[` or `{`. The cursor position is denoted by `|`.
 | `\|)` | `)`      | `)\|`  |
 | `)\|` | `)`      | `))\|` |
 |       | `<C-v>)` | `)\|` |
-|       | `{<CR>`  | <code>{<br>\|<br>}</code> |
+
+There is additionally an extra mapping for `{<CR>`:
+```
+{
+|
+}
+```
+The opened line will be indented according to your settings.
 
 This plugin does not attempt to autoinsert quotes or do any smart
 deletion of pairs.
