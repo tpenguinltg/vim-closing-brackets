@@ -1,0 +1,9 @@
+{
+"name" : "vim-closing-brackets",
+"version" : "1.0.0",
+"author" : "tPenguinLTG",
+"maintainer" : "tPenguinLTG",
+"repository" : {"type": "git", "url": "git://github.com/tpenguinltg/vim-closing-brackets.git"},
+"dependencies" : {},
+"description" : "A dead-simple Vim plugin to automatically insert closing brackets"
+}
