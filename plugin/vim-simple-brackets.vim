@@ -14,8 +14,8 @@ inoremap [<BS> <NOP>
 inoremap <expr> ]  strpart(getline('.'), col('.')-1, 1) == "]" ? "\<Right>" : "]"
 
 " Braces
-inoremap {<BS> <NOP>
-inoremap {} {}<Left>
 inoremap { {}<Left>
+inoremap {} {}<Left>
+inoremap {<BS> <NOP>
 inoremap <expr> }  strpart(getline('.'), col('.')-1, 1) == "}" ? "\<Right>" : "}"
 inoremap {<CR> {<CR>}<C-o>O
