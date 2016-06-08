@@ -21,6 +21,12 @@ Place the contents of this repo in your Vim runtime folder (`~/.vim` on
 \*nix systems or `%USERPROFILE%\vimfiles` on Windows) or use your
 favorite Vim plugin manager.
 
+[Vundle][]: `tpenguinltg/vim-closing-brackets`
+[vim-addon-manager (VAM)][VAM]: `Closing_Brackets`
+
+[Vundle]: https://github.com/VundleVim/Vundle.vim
+[VAM]: https://github.com/MarcWeber/vim-addon-manager
+
 
 Mappings
 --------
